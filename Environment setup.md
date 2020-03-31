@@ -200,9 +200,8 @@ Powershell-core (pwsh) - это современная кросс-платфор
 
 posh-git - это дополнение для Powershell, которое обеспечивает наглядную и комфортную работу с Git из командной строки.
 
-При установленном powershell (дополнение устанавливается одинаково для Windows / Mac)
-
-Выполнить команды (копируем и вставляем по одной)
+При установленном powershell (дополнение устанавливается одинаково для Windows / Mac):
+выполнить команды (копируем и вставляем по одной)
 
 1. `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
 2. `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
@@ -231,6 +230,10 @@ ConEmu это эмулятор консоли, т.е. программа, кот
 3. Затем нужно будет на вкладке Settings - Integration нажать на кнопку Register (верхнюю). Это зарегистрирует пункт контекстного меню "ConEmu here" - вы сможете открывать Powershell+ConEmu в нудной вам папке из Windows Explorer.
 
 ## Дополнительно
+
+### Firefox Developer Edition
+Инструмент Developer Tools в Firefox предоставляет некоторые возможности, которых нет в Chrome Developer Tools, в частности он очень удобен для работы с Flex и Grid, поэтому Firefox Developer Edition (версия, предзначенная специально для разработчиков) рекомендуется к установке дополнительно к Chrome. Быстрая установка через Chocolatey:
+`choco install firefox-dev --pre`
 
 ### Windows: отключение UAC (надоедливого окна, которое вылезает и запрашивает разрешение что-то сделать)
 

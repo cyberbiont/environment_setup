@@ -198,12 +198,9 @@ Powershell-core (pwsh) - это современная кросс-платфор
 
 ## Установка posh-git
 
-posh-git - это дополнение для Powershell, которое обеспечивает наглядную и комфортную работу с Git из командной строки.
+posh-git - это дополнение для Powershell, которое обеспечивает наглядную и комфортную работу с Git из командной строки. Для установки дополнения должен быть уже установлен сам Powershell (как это сделать, см. выше). Открываем его и выполняем команды (копируем и вставляем по одной):
 
-При установленном powershell (дополнение устанавливается одинаково для Windows / Mac):
-выполнить команды (копируем и вставляем по одной)
-
-1. `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
+1. (только для Windows) `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
 2. `PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force`
 3. `Import-Module posh-git`
 4. `Add-PoshGitToProfile`

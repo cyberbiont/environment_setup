@@ -114,6 +114,7 @@ EOF
 Сначала нужно установить сам Settings Sync, вбив его название в поле поиска на вкладке "extensions" в сайдбаре и нажав install.
 
 Затем откройте его настройки и:
+
 - в поле `sync: Gist` введите id для синхронизации: `ab564ce11c3662da32a5fa360c312553`
 - выполните команду из палитры: `Sync: Advanced options` - скачать настройки из публичного Gist. В левом нижнем углу появится информ.окно (...больше не будет требовать подтверждения через токен...)
 - после этого чтобы загрузить настройки, выполняем из палитры команду `Sync: Download settings`. Обратите внимание, что это перезапишет файл settings.json!
@@ -123,7 +124,7 @@ EOF
 
 Добавьте в settings.json:
 **Windows**:
-"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+"terminal.integrated.shell.windows": "C:\\\Program Files\\\PowerShell\\\7\\\pwsh.exe"
 
 **Mac**:
 "terminal.integrated.shell.osx": "/usr/local/bin/powershell"
@@ -227,6 +228,7 @@ ConEmu это эмулятор консоли, т.е. программа, кот
 ## Дополнительно
 
 ### Firefox Developer Edition
+
 Инструмент Developer Tools в Firefox предоставляет некоторые возможности, которых нет в Chrome Developer Tools, в частности он очень удобен для работы с Flex и Grid, поэтому Firefox Developer Edition (версия, предзначенная специально для разработчиков) рекомендуется к установке дополнительно к Chrome. Быстрая установка через Chocolatey:
 `choco install firefox-dev --pre`
 

@@ -7,19 +7,20 @@
 2.  Зарегистрироваться на https://github.com/. В качестве логина укажите свое настоящее имя_фамилию, это сильно упростит преподавателю жизнь и даст возможность более эффективно помогать вам во время занятий. В дальнейшем. если захотите, вы сможете сменить логин после окончания курсов (на Github есть такая возможность).
 
 3.  Установить расширение VSCode Live Share:
+
     3.1. Открываем менеджер расширений VSCode:
 
-    <img src="http://dl3.joxi.net/drive/2020/03/23/0032/1408/2123136/36/f27c1a9e38.jpg" alt="extensions manager" width="400">
+  <img src="http://dl3.joxi.net/drive/2020/03/23/0032/1408/2123136/36/f27c1a9e38.jpg" alt="extensions manager" width="400">
 
-    <!-- 3.2. В ![панели поиска](http://joxi.ru/Rmz4O6etRwvx9A) вводим Live Share и устанавливаем найденный ![плагин](http://joxi.ru/Vm6PewvHjb3nXA). -->
+3.2. В ![панели поиска](http://joxi.ru/Rmz4O6etRwvx9A) вводим Live Share и устанавливаем найденный ![плагин](http://joxi.ru/Vm6PewvHjb3nXA).
 
-    3.2. В панели поиска вводим "Live Share Extension Pack" и устанавливаем этот плагин:
+3.3. В панели поиска вводим "Live Share Extension Pack" и устанавливаем этот плагин:
 
-    <img src="http://dl4.joxi.net/drive/2020/03/23/0032/1408/2123136/36/5aa304bcbb.jpg" alt="live share extension pack" width="400">
+  <img src="http://dl4.joxi.net/drive/2020/03/23/0032/1408/2123136/36/5aa304bcbb.jpg" alt="live share extension pack" width="400">
 
-    3.3 Таким же образом устанавливаем расширение "Live Server".
+3.4. Таким же образом устанавливаем расширение "Live Server".
 
-    3.3. После этого перезагружаем VSCode.
+3.5. После этого перезагружаем VSCode.
 
 Если у вас что-то не получается - внимательно прочитайте [расширенный гайд](https://docs.google.com/document/d/1S3Gfzum6c0f35hWZLXeH6UZpPmTYBCfdbhXx1JIHqq0/edit)
 
